@@ -8,6 +8,11 @@
 	box-shadow:0 3px 30px rgb(0,0,0,.2);
 	border-radius:10px;
 	
+	animation-duration: 1s;
+	animation-name: form;
+	animation-iteration-count: 1;
+	animation-direction: alternate;
+	
 	input{
 		font-family: "Microsoft Yahei";
 		outline: none;
@@ -24,6 +29,19 @@
 		
 		
 	}
+	
+	
+}
+@keyframes form{ {
+  from {
+    margin-top:100%;
+    height:300%
+  }
+  
+  to {
+    margin-top:0%;
+    height:100%;
+  }
 }
 
 
