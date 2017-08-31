@@ -1,25 +1,28 @@
 .form{
 	width:100%;
 	border:"0";
-	margin:0px;
+	margin:0 auto;
 	
-	font-size:0.7rem;
+	font-size:0.9rem;
 	background-color:rgb(241,241,241);
+	box-shadow:0 3px 30px rgb(0,0,0,.2);
+	border-radius:10px;
 	
 	input{
 		font-family: "Microsoft Yahei";
 		outline: none;
 		border:none;
+		border-radius:10px;
 		
 	}
 	input[type=text],input[type=phone]{
-		border:none;
+		
 		height:4rem;
 		line-height:4rem;
 		padding-left:1rem;
-		width:100%;
-		box-sizing:border-box;
-		background-color:rgb(255,255,255);
+		border-radius:8px;
+		
+		
 	}
 }
 
@@ -30,8 +33,8 @@
 .box{
 	border:none;
 	padding-left:1rem;
-	height:1.55rem;
-	line-height:1.55rem;
+	height:1.8rem;
+	line-height:1.8rem;
 }
 .text{
 	border:none;
@@ -39,9 +42,7 @@
 	height:4rem;
 	
 }
-#submit{
-	margin:center;
-}
+
 #smit{
 	font-family: "Microsoft Yahei";
 	background-color:rgb(255,255,255);
