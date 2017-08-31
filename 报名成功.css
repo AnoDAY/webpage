@@ -17,10 +17,10 @@ height:50%;
 background-color:rgb(239,240,240);
 }
 #picture{
-	margin-top:70px;
+	margin-top:80px;
 	text-align:center;
-width:100px;max-width:100px;
-width:expression_r(document.body.clientWidth>100?"100px":"auto");
+width:150px;max-width:150px;
+width:expression_r(document.body.clientWidth>150?"150px":"auto");
 overflow:hidden;
 
 }
