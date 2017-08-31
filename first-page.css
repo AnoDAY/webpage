@@ -66,9 +66,9 @@
 	color:white;
 	background-color:transparent;
 	border:none;
-	margin-left:67rem;
-	margin-top:0.7rem;
-	font-size:40px;
+	margin-left:34rem;
+	
+	font-size:55px;
 	
 	 animation-duration: 1.5s;
   animation-name: button;
@@ -87,4 +87,4 @@
     width:100%;
   }
 }
-#button:hover{ font-size:300%;z-index:4;}
+#button:hover{ font-size:300%;}
