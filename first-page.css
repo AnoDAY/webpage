@@ -1,0 +1,90 @@
+
+.pict {background:url(first-page.png) no-repeat;
+	filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
+		-moz-background-size: 100% 100%;
+		background-size: 100% 100%;
+		overflow-y: hidden;
+		overflow-x: hidden;
+	
+	
+  animation-duration: 1s;
+  animation-name: pict;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+}
+
+@keyframes pict {
+  from {
+    margin-top:100%;
+    height:300%
+  }
+  
+  to {
+    margin-top:0%;
+    height:100%;
+  }
+}
+
+.page-1{
+	height:23%;
+	width:100%;
+	background:url(language.png) no-repeat;
+	filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
+		-moz-background-size: 100% 100%;
+		background-size: 100% 100%;
+		overflow-y: hidden;
+		overflow-x: hidden;
+	
+}
+
+.page-2{
+	height:68%;
+	width:100%;
+	background:url(wesharp.png) no-repeat;
+	filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
+		-moz-background-size: 100% 100%;
+		background-size: 100% 100%;
+		overflow-y: hidden;
+		overflow-x: hidden;
+	
+}
+
+.page-3{
+	height:9%;
+	width:100%;
+	background:transparent;
+	filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
+		-moz-background-size: 100% 100%;
+		background-size: 100% 100%;
+		overflow-y: hidden;
+		overflow-x: hidden;
+	
+	
+}
+#button{
+	font-family:Georgia; 
+	color:white;
+	background-color:transparent;
+	border:none;
+	margin-left:67rem;
+	margin-top:0.7rem;
+	font-size:40px;
+	
+	 animation-duration: 1.5s;
+  animation-name: button;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+	
+}
+@keyframes button {
+  from {
+    margin-left:100%;
+    width:300%
+  }
+  
+  to {
+    margin-left:0%;
+    width:100%;
+  }
+}
+#button:hover{ font-size:300%;z-index:4;}
