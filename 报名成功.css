@@ -17,15 +17,15 @@ height:50%;
 background-color:rgb(239,240,240);
 }
 #picture{
-	margin-top:50px;
+	margin-top:70px;
 	text-align:center;
-width:250px;max-width:250px;
-width:expression_r(document.body.clientWidth>250?"250px":"auto");
+width:100px;max-width:100px;
+width:expression_r(document.body.clientWidth>100?"100px":"auto");
 overflow:hidden;
 
 }
 .words{
 text-align:center;
 font-family:font-family: "Microsoft Yahei";
-font-size:30px;
+font-size:10px;
 }
