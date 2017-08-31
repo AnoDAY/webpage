@@ -1,12 +1,11 @@
 .form{
-	width:96%;
+	width:100%;
 	border:"0";
-	margin:3rem auto;
+	margin:0px;
+	
 	font-size:0.7rem;
 	background-color:rgb(241,241,241);
-	td{
-		height:100rem;
-	}
+	
 	input{
 		font-family: "Microsoft Yahei";
 		outline: none;
@@ -15,7 +14,7 @@
 	}
 	input[type=text],input[type=phone]{
 		border:none;
-		height:2rem;
+		height:4rem;
 		line-height:4rem;
 		padding-left:1rem;
 		width:100%;
@@ -23,6 +22,8 @@
 		background-color:rgb(255,255,255);
 	}
 }
+
+
 .tip{
 	font-family: "Microsoft Yahei";
 }
@@ -30,20 +31,21 @@
 	border:none;
 	padding-left:1rem;
 	height:1.55rem;
+	line-height:1.55rem;
 }
 .text{
 	border:none;
 	padding-left:1rem;
 	height:4rem;
+	
 }
 #submit{
-	margin-left:auto;
-margin-right:auto;	
+	margin:center;
 }
 #smit{
 	font-family: "Microsoft Yahei";
 	background-color:rgb(255,255,255);
 border:none;
-margin-left:center;	
+margin-left:6rem;	
 }
-#smit:hover{background-color:#32CD32}
+#smit:hover{background-color:#FFF5EE}
