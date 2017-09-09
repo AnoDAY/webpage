@@ -58,7 +58,7 @@ a{
 	font-family:"Microsoft Yahei";
 	font-size:6rem;/*85px*/
 	float:right;
-	margin-top:2rem;
+	margin-top:-1rem;
 }
  @keyframes flash {
              from, 50%, to {
